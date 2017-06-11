@@ -15,3 +15,29 @@ How to Run this project
     $ mvn jetty:run
     ```
 - Access the `http://localhost:8080/Spring4/`
+
+
+
+### Struts 2 - Interceptors
+
+Struts2 Interceptors are responsible for most of the processing inside the Struts2 framework. You can register interceptor in Action class level or default for all action.
+    ```sh
+    @InterceptorRef(value="customStack")
+    ```
+or
+
+    ```sh
+    <default-interceptor-ref name="customStack"></default-interceptor-ref>
+    ```
+
+
+### Struts 2 - different ways to create Action classes
+
+- Implementing Action interface
+- Using Struts2 @Action annotation
+- Extending ActionSupport class(Ex: LoginAction -  I used this option. There you can override methods validate and execute methods.)
+
+
+### Structs2 - Validation support.
+
+The Struts validation framework provides inbuilt validation support. In this sample I have implemented required string validation, so please refer LoginAction class. 
