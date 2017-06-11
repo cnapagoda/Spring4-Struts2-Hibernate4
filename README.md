@@ -20,7 +20,7 @@ How to Run this project
 
 ### Struts 2 - Interceptors
 
-Struts2 Interceptors are responsible for most of the processing inside the Struts2 framework. You can register interceptor in Action class level or default for all action.
+Struts2 Interceptors are responsible for most of the processing inside the Struts2 framework. You can register an interceptor in Action class level or make it default for all the actions.
 
 
     
@@ -41,4 +41,4 @@ or
 
 ### Structs2 - Validation support.
 
-The Struts validation framework provides inbuilt validation support. In this sample I have implemented required string validation, so please refer LoginAction class. 
+The Struts validation framework provides inbuilt validation support. In this sample I have implemented required string validation. So please refer LoginAction class. 
